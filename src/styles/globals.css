@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Pizza-themed styles with enhanced cheese texture */
-@keyframes cheeseShimmer {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+/* Pizza-themed styles */
 
 .card {
   background: rgba(255, 245, 225, 0.9) !important;
@@ -177,34 +172,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFF5E1;
-  background-image: 
-    /* Large triangles */
-    linear-gradient(45deg, transparent 48%, #FFD700 48%, #FFD700 52%, transparent 52%),
-    linear-gradient(-45deg, transparent 48%, #FFB380 48%, #FFB380 52%, transparent 52%),
-    /* Dots pattern */
-    radial-gradient(circle at 50% 50%, #B00000 3px, transparent 3px),
-    radial-gradient(circle at 0% 0%, #FF3B30 4px, transparent 4px),
-    radial-gradient(circle at 100% 0%, #FF3B30 4px, transparent 4px),
-    radial-gradient(circle at 0% 100%, #FF3B30 4px, transparent 4px),
-    radial-gradient(circle at 100% 100%, #FF3B30 4px, transparent 4px),
-    /* Zigzag lines */
-    linear-gradient(135deg, transparent 45%, #FFA500 45%, #FFA500 55%, transparent 55%),
-    linear-gradient(-135deg, transparent 45%, #FFA500 45%, #FFA500 55%, transparent 55%),
-    /* Base color with texture */
-    linear-gradient(90deg, #FFE4B5, #FFF5E1);
-  background-size: 
-    100px 100px, /* Large triangles */
-    100px 100px,
-    50px 50px,   /* Dots */
-    100px 100px, /* Corner dots */
-    100px 100px,
-    100px 100px,
-    100px 100px,
-    50px 50px,   /* Zigzag */
-    50px 50px,
-    100% 100%;   /* Base color */
-  animation: floatingSlices 30s linear infinite;
+  background-color: #FFE4B5;
 }
 
 /* Input styling */
