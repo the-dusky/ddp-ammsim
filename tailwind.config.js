@@ -16,20 +16,20 @@ module.exports = {
   daisyui: {
     themes: [{
       ddp: {
-        "primary": "#FF5D01",
-        "primary-focus": "#E65300",
+        "primary": "#B00000", // Pepperoni red for buttons and forms
+        "primary-focus": "#8B0000", // Darker pepperoni red for hover
         "primary-content": "#ffffff",
-        "secondary": "#f6d860",
-        "accent": "#37cdbe",
+        "secondary": "#FFA500", // Pizza crust orange
+        "accent": "#B00000", // Pepperoni red accent
         "neutral": "#3d4451",
-        "base-100": "#1f2937",
-        "base-200": "#1a1b26",
-        "base-300": "#16171d",
-        "base-content": "#ffffff",
+        "base-100": "#FFF5E1", // Mozzarella off-white background
+        "base-200": "#FFE4B5", // Light cheese color background
+        "base-300": "#FFD700", // Golden cheese color background
+        "base-content": "#4A2511", // Dark brown text for pizza theme
         "info": "#2094f3",
         "success": "#009485",
         "warning": "#ff9900",
-        "error": "#ff5724",
+        "error": "#B00000",
       },
     }],
     darkTheme: "ddp",
