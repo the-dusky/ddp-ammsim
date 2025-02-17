@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function LiquidityPool({ participants, calculations, onParticipantsUpdate }) {
+export default function LiquidityPool({ participants, onParticipantsUpdate }) {
   const [activeTab, setActiveTab] = useState('swap') // swap, addLiquidity, removeLiquidity
   const [selectedPlayer, setSelectedPlayer] = useState('')
   const [swapInputs, setSwapInputs] = useState({ from: '', to: '', outputAmount: 0, fromToken: 'DDP', toToken: 'USDC', priceImpact: 0 })
@@ -396,7 +396,7 @@ export default function LiquidityPool({ participants, calculations, onParticipan
 
                   <div className="stats bg-base-200">
                     <div className="stat">
-                      <div className="stat-title">You'll Receive</div>
+                      <div className="stat-title">You&apos;ll Receive</div>
                       <div className="stat-value text-sm">
                         {removeAmount ? formatNumber(parseFloat(removeAmount) * pool.ddpBalance / pool.lpTokens) : '0'} DDP
                       </div>
